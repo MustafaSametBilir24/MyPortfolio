@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mustafa Samet Bilir</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/profile1.png" type="image/x-icon" sizes="16x16">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/c0b1a3ab48.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-amber-50 overflow-x-hidden">
+  
+  <!--Header-->
+  <header class="container m-auto w-full flex py-8 items-center justify-between sticky top-0 z-30 bg-amber-50">
+
+    <!--Logo-->
+    <a id="logo-reset" class=" lg:text-xl  hover:text-blue-400 font-Roboto" href="#">Mustafa Samet Bilir</a>
+
+    <!--Navbar-->
+    <nav class="hidden sm:flex space-x-14 lg:space-x-20 xl:space-x-32 mx-6 lg:mx-0">
+        <a class="lg:text-xl  hover:text-blue-400 font-Roboto" href="#">Home</a>
+        <a class="lg:text-xl  hover:text-blue-400 font-Roboto" href="#skills">Skills</a>
+        <a class="lg:text-xl  hover:text-blue-400 font-Roboto" href="#projects">Projects</a>
+    </nav>
+
+    <!--Buttons-->
+    <div class="flex items-center space-x-7 lg:space-x-16">
+        <!--Profile-->
+      <div class="flex flex-col items-center">
+          <img class="w-8 h-8 lg:w-10 lg:h-10 rounded-full object-cover" src="images/profilefoto.jpg">
+          <h2 class="lg:text-lg font-Roboto">Profile</h2>
+      </div>
+
+        <!--Bar Button-->
+      <button id="bar-button" class="sm:hidden  hover:text-blue-400 text-lg lg:text-2xl">
+          <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+<!--Hidden Navbar-->
+  <div id="navbar" class="hidden">
+      <nav class="flex flex-col justify-center items-center w-full p-10 space-y-10 fixed bottom-0 bg-black z-50 rounded-t-2xl">
+          <a class="text-xl text-amber-50 hover:text-blue-400 font-Roboto" href="#">Home</a>
+          <a class="text-xl text-amber-50 hover:text-blue-400 font-Roboto" href="#skills">Skills</a>
+          <a class="text-xl text-amber-50 hover:text-blue-400 font-Roboto" href="#projects">Projects</a>
+      </nav>
+  </div>
+
+<!--Home Page-->
+  <section class="container m-auto w-full flex flex-col items-center py-14 mt-6">
+    <div class="grid grid-cols-5 w-full gap-8">
+
+      <!--About Me-->
+      <div class="col-span-5 sm:col-span-2 lg:col-span-3 space-y-6 md:space-y-12">
+        <p class="text-lg lg:text-2xl font-Nunito">Hi, My name is</p>
+        <h1 class="text-2xl lg:text-7xl font-Nunito">Mustafa Samet Bilir</h1>
+        <h2 class="text-xl lg:text-4xl font-Nunito">Software Engineering Student</h2>
+        <p class="text-lg lg:text-2xl font-Nunito">I am a 3rd-year student in the Software Engineering department at Üsküdar University. I am currently learning React and working on my own projects to improve my skills. I love doing what I enjoy on the computer.</p>
+
+        <!--Links-->
+        <div class="flex items-center gap-10">
+          <a href="https://github.com/MustafaSametBilir24" target="_blank">
+            <i class="fa-brands fa-github text-3xl"></i>
+          </a>
+          <a href="mailto:sametbilir2434@gmail.com">
+            <i class="fa-solid fa-envelope text-3xl"></i>
+          </a>
+        </div>
+      </div>
+
+      <!--Main Portrait-->
+      <div class="hidden sm:block col-span-5 sm:col-span-3 lg:col-span-2">
+        <img src="images/profile1.png" alt="" class="w-full h-[30rem] md:h-[40rem] object-fill rounded-3xl">
+      </div>
+    </div>
+  </section>
+
+  <!--Skills Section-->
+  <section id="skills" class="container m-auto flex w-full flex-col items-center py-14 mt-12">
+    <h1 class="text-center pb-4 border-black border-b-2 w-full text-4xl pt-28">Skills</h1>
+
+    <!--Skills Images-->
+    <div class="grid grid-cols-2 sm:grid-cols-4 mt-12 gap-20">
+      <img src="images/html.png" alt="" class="w-24 h-24 sm:w-32 sm:h-32" >
+      <img src="images/css-3.png" alt="" class="w-24 h-24 sm:w-32 sm:h-32">
+      <img src="images/java-script.png" alt="" class="w-24 h-24 sm:w-32 sm:h-32">
+      <img src="images/Remove-bg.ai_1730907988619.png" alt="" class="w-24 h-24 sm:w-32 sm:h-32">
+    </div>
+  </section>
+
+  <!--Projects Section-->
+  <section id="projects" class="container m-auto flex w-full flex-col items-center py-14 mt-12">
+    <h1 class="text-center pb-4 border-black border-b-2 w-full text-4xl pt-28">Projects</h1>
+    <div class="grid grid-cols-3 gap-8 w-full mt-12">
+
+      <!--First Project-->
+      <div class="group relative col-span-3 lg:col-span-1">
+        <img src="images/Ekran görüntüsü 2024-11-06 201614.png" alt="" class="transition-transform duration-500 hover:scale-105 w-full h-full">
+        <div class="absolute bottom-0 left-0 pl-2 sm:pl-4 space-y-2 sm:space-y-4">
+          <p class="text-amber-50 lg:text-lg font-Nunito font-bold group-hover:-translate-y-2 transition-all duration-500">CinemaChronicles</p>
+          <p class="text-amber-50 font-bold text-xs sm:text-base font-Roboto pb-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">A simple movie project I created to learn using html, tailwindcss and javascript.</p>
+        </div>
+
+        <!--Github logo-->
+        <div class="absolute top-7 right-7 pr-2 sm:pr-4">
+          <a href="https://github.com/MustafaSametBilir24/CinemaChronicles" target="_blank">
+            <i class="text-amber-50 fa-brands fa-github text-xl sm:text-3xl -translate-y-2 sm:-translate-y-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"></i>
+          </a>
+        </div>
+
+        <!--Live Demo logo-->
+        <div class="absolute top-7 left-7 pr-2 sm:pr-4">
+          <a href="https://mustafasametbilir24.github.io/CinemaChronicles/" target="_blank">
+            <i class="text-amber-50 fa-solid fa-desktop text-xl sm:text-3xl -translate-y-2 sm:-translate-y-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"></i>
+         </a>
+        </div>
+      </div>
+
+      <!--Second Project-->
+      <div class="group relative col-span-3 lg:col-span-1">
+        <img src="images/Ekran görüntüsü 2024-11-06 195920.png" alt="" class="transition-transform duration-500 hover:scale-105 w-full h-full">
+        <div class="absolute bottom-0 left-0 pl-2 sm:pl-4 space-y-2 sm:space-y-4">
+          <p class="text-black lg:text-lg font-Nunito font-bold group-hover:-translate-y-2 transition-all duration-500">My Portfolio</p>
+          <p class="text-black font-bold text-xs sm:text-base font-Roboto pb-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">A simple portfolio project I created to learn using html, tailwind-css and javascript.</p>
+        </div>
+
+        <!--Github logo-->
+        <div class="absolute top-7 right-7 pr-2 sm:pr-4">
+          <a href="https://github.com/MustafaSametBilir24/MyPortfolio" target="_blank">
+            <i class="fa-brands fa-github text-xl sm:text-3xl -translate-y-2 sm:-translate-y-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"></i>
+          </a>
+        </div>
+
+        <!--Live Demo logo-->
+        <div class="absolute top-7 left-7 pr-2 sm:pr-4">
+          <a href="https://mustafasametbilir24.github.io/MyPortfolio/" target="_blank">
+            <i class="fa-solid fa-desktop text-xl sm:text-3xl -translate-y-2 sm:-translate-y-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"></i>
+          </a>
+        </div>
+      </div>
+
+      <!--Third Project-->
+      <div class="group relative col-span-3 lg:col-span-1">
+        <img src="images/Ekran görüntüsü 2024-11-06 201702.png" alt="" class="transition-transform duration-500 hover:scale-105 w-full h-full">
+        <div class="absolute bottom-0 left-0 pl-2 sm:pl-4 space-y-2 sm:space-y-4">
+          <p class="text-amber-50 lg:text-lg font-Nunito font-bold group-hover:-translate-y-2 transition-all duration-500">ThePizzaBurgerJoint</p>
+          <p class="text-amber-50 font-bold text-xs sm:text-base font-Roboto pb-4 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">A simple restaurant project I created to learn using html, css and javascript.</p>
+        </div>
+
+        <!--Github logo-->
+        <div class="absolute top-7 right-7 pr-2 sm:pr-4">
+         <a href="https://github.com/MustafaSametBilir24/thepizzaburgerjoint.github.io" target="_blank">
+            <i class="text-amber-50 fa-brands fa-github text-xl sm:text-3xl -translate-y-2 sm:-translate-y-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"></i>
+          </a>
+        </div>
+
+        <!--Live Demo logo-->
+        <div class="absolute top-7 left-7 pr-2 sm:pr-4">
+          <a href="https://mustafasametbilir24.github.io/thepizzaburgerjoint.github.io/" target="_blank">
+            <i class="text-amber-50 fa-solid fa-desktop text-xl sm:text-3xl -translate-y-2 sm:-translate-y-4 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="container m-auto w-full flex flex-col justify-center items-center pb-8 pt-16">
+
+    <!--Footer Links-->
+    <nav class="flex space-x-12 mb-6">
+      <a href="#" class="hover:text-blue-400 font-Roboto sm:text-lg">Home</a>
+      <a href="#skills" class="hover:text-blue-400 font-Roboto sm:text-lg">Skills</a>
+      <a href="#projects" class="hover:text-blue-400 font-Roboto sm:text-lg">Projects</a>
+    </nav>
+
+    <!--Footer Rights-->
+    <p class="font-Roboto sm:text-lg">All Rights Reserved | Mustafa Samet Bilir</p>
+  </footer>
+</body>
+</html>
